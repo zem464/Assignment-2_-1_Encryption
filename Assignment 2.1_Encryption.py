@@ -11,5 +11,8 @@ text_output = ("")
 # Check if the input has the variables and change it into corresponding symbols
 for i in range(len(ask_input)):
 # If there is 'a', change to '*'
-     if ask_input[i].lower() == 'a':
+    if ask_input[i].lower() == 'a':
         text_output += '*'
+# If there is 'e', change to '&'
+    elif ask_input[i].lower() == 'e':
+        text_output += '&'
