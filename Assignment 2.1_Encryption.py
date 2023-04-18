@@ -16,3 +16,6 @@ for i in range(len(ask_input)):
 # If there is 'e', change to '&'
     elif ask_input[i].lower() == 'e':
         text_output += '&'
+# If there is 'i', change to '#'
+    elif text_input[i].lower() == 'i':
+        text_output += '#'
