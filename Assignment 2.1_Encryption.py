@@ -17,13 +17,13 @@ for i in range(len(ask_input)):
     elif ask_input[i].lower() == 'e':
         text_output += '&'
 # If there is 'i', change to '#'
-    elif text_input[i].lower() == 'i':
+    elif ask_input[i].lower() == 'i':
         text_output += '#'
 # If there is 'o', change to '+'
-    elif text_input[i].lower() == 'o':
+    elif ask_input[i].lower() == 'o':
         text_output += '+'
 # If there is 'u', change to '!'
-    elif text_input[i].lower() == 'u':
+    elif ask_input[i].lower() == 'u':
         text_output += '!'
     else:
-        text_output += text_input[i]
+        text_output += ask_input[i]
