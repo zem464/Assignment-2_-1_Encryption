@@ -19,3 +19,6 @@ for i in range(len(ask_input)):
 # If there is 'i', change to '#'
     elif text_input[i].lower() == 'i':
         text_output += '#'
+# If there is 'o', change to '+'
+    elif text_input[i].lower() == 'o':
+        text_output += '+'
