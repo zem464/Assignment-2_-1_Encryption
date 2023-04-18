@@ -27,3 +27,5 @@ for i in range(len(ask_input)):
         text_output += '!'
     else:
         text_output += ask_input[i]
+# Print the encrypted input
+print(text_output)
