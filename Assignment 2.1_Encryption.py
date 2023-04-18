@@ -22,3 +22,8 @@ for i in range(len(ask_input)):
 # If there is 'o', change to '+'
     elif text_input[i].lower() == 'o':
         text_output += '+'
+# If there is 'u', change to '!'
+    elif text_input[i].lower() == 'u':
+        text_output += '!'
+    else:
+        text_output += text_input[i]
