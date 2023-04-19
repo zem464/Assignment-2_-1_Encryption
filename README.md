@@ -41,6 +41,6 @@ The task is to write a Python Script that will accept a string as a plain text a
 ### Contact
 Zemerelin Iris M. Membrere - _zemerelinmembrere@gmail.com_
 
-**Project Link:** 
+**Project Link :** https://github.com/zem464/Assignment-2_-1_Encryption.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
