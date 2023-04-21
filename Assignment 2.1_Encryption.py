@@ -5,7 +5,7 @@
 # Problem 1 - Encryption
 
 # Get an input from the user
-ask_input = input("\033[0;31;48mInput a plaintext: \033[35m")
+ask_input = input("\033[31m\033[1mInput a plaintext: \033[35m\033[0m")
 text_output = ("")
 
 # Check if the input has the variables and change it into corresponding symbols
@@ -28,4 +28,4 @@ for i in range(len(ask_input)):
     else:
         text_output += ask_input[i]
 # Print the encrypted input
-print(text_output)
+print("\033[31m\033[1mEncryption :\033[35m\033[0m", text_output)
